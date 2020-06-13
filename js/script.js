@@ -1,8 +1,8 @@
 (function () {
   var images = document.querySelectorAll('.right__image--image');
   var text = document.querySelectorAll('.slide__content');
-  var prev = document.querySelector('.prev, .prev *');
-  var next = document.querySelector('.next, .next *');
+  var prev = document.querySelector('.prev');
+  var next = document.querySelector('.next');
 
   var slide = (n, p) => {
     images[n].classList.add('hidden');
